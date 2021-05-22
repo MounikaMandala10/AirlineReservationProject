@@ -24,7 +24,7 @@ public class AdminServiceImpl implements AdminService
 			// TODO Auto-generated catch block
 			 throw new AdminAlreadyExistsException("Admin already exists");
 		}
-				return "Admin already exists";
+				return "Admin added sucessfully";
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class AdminServiceImpl implements AdminService
 			throw new AdminNotFoundException("admin not found");
 		}
 	
-				return "admin not found";
+				return "admin modified sucessfully";
 	}
 
 	@Override
@@ -69,7 +69,7 @@ public class AdminServiceImpl implements AdminService
 			throw new AdminNotFoundException("admin not found");
 		}
 	
-			return "admin not found";
+			return "admin deleted sucessfully";
 	}
 	
 }

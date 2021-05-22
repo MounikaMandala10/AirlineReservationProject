@@ -87,7 +87,7 @@ public String modifyAdmin(@RequestBody Admin admin) throws AdminNotFoundExceptio
 }
 
 
-@DeleteMapping(path="/deleteadmin")
+@DeleteMapping(path="/deleteAdmin")
 public String removeAdmin(@RequestBody Admin admin) throws AdminNotFoundException{
 	System.out.println("Admin Controller....Understanding client and talking to service layer...");
 	
